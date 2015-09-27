@@ -1,0 +1,216 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="shribros" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico?" />
+
+    <!--Load all CSS Files-->
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/body.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/BorderedList.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Caption.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Category.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Footer.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Header.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/List.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/MainContentHolder.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Note.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/OnePageLayout.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/PageHolderTable.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/PrimaryLink.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Quote.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/Recommends.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/ScrollableContent.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/SearchTextBox.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/MasterSearchTextBox.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/SecondaryLink.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/TwoPageLayout.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/FourPageLayout.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/ThreePanelLayout.css")%>" rel="Stylesheet" />
+    <link type="text/css" href="<%=ResolveClientUrl("/CSS/MainLink.css")%>" rel="Stylesheet" />
+
+    <!--jquery files-->
+    <script src="http://code.jquery.com/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+
+    <script type="text/javascript" src="<%=ResolveClientUrl("JS/DisableRightClick.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("JS/scalableBackground.js")%>"></script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-16102229-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            //Make the footer image align to the bottom of the screen
+            var headerHeight = 129;
+            var footerHeight = 130;
+            var mainContentHolderPaddingTop = 40;
+            var mainContentHolderHeight = $(document).height() - (headerHeight + footerHeight + mainContentHolderPaddingTop);
+            $(".MainContentHolder").css("height", mainContentHolderHeight);
+        });
+    </script>
+
+    <!--**************************************************************-->
+    <!-----------------Search Functionality - Start--------------------->
+    <!--**************************************************************-->
+    <style type="text/css">
+        .ui-autocomplete-loading {
+            background: url('<%=ResolveUrl("Images/ui-anim_basic_16x16.gif")%>'), url('<%=ResolveUrl("Images/SearchBackground.jpg")%>');
+            background-position: right center, left top;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .ui-autocomplete {
+            max-height: 370px;
+            max-width: 892px;
+            overflow-y: auto;
+            /* prevent horizontal scrollbar */
+            overflow-x: auto;
+        }
+        /* IE 6 doesn't support max-height
+        * we use height instead, but this forces the menu to always be this tall
+        */
+        * html .ui-autocomplete {
+            height: 370px;
+            width: 892px;
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+        $.widget("custom.masterSearchAutocomplete", $.ui.autocomplete, {
+            // Add the item's value as a data attribute on the <li>.
+            _renderItem: function (ul, item) {
+                var iconImage = "<%=ResolveUrl("Images/Shribros_Icon.jpg")%>";
+
+                if (item.Path.indexOf('Links/TheStudio') >= 0)
+                    iconImage = "<%=ResolveUrl("Images/Studio_Icon.jpg")%>";
+                else if (item.Path.indexOf('Links/ListsAndJournals') >= 0)
+                    iconImage = "<%=ResolveUrl("Images/Lists_Icon.jpg")%>";
+                else if (item.Path.indexOf('Links/Photography') >= 0)
+                    iconImage = "<%=ResolveUrl("Images/Photography_Icon.jpg")%>";
+                else if (item.Path.indexOf('Links/Reviews') >= 0)
+                    iconImage = "<%=ResolveUrl("Images/Reviews_Icon.jpg")%>";
+                else if (item.Path.indexOf('Links/MovieRatings') >= 0)
+                    iconImage = "<%=ResolveUrl("Images/Ratings_Icon.jpg")%>";
+
+                return $("<li>")
+                    .append('<a href="' + item.Path + '">' +
+                                '<table>' +
+                                    '<tr>' +
+                                        '<td rowspan="2">' + '<img src="' + iconImage + '" />' + '</td>' +
+                                        '<td style="font-family: Arial; font-weight: 600;">' + item.Title + '</td>' +
+                                    '</tr>' +
+                                    '<tr>' +
+                                        '<td><span style="font-size: 11px; font-style: italic;">' + item.Description + '</span></td>' +
+                                    '</tr>' +
+                                '</table>' +
+                            '</a>')
+                  .appendTo(ul);
+            },
+            // Add a CSS class name to the odd menu items.
+            _renderMenu: function (ul, items) {
+                var that = this;
+                $.each(items, function (index, item) {
+                    that._renderItemData(ul, item);
+                });
+                $(ul).find("li:odd").addClass("odd");
+            }
+        });
+
+        $(document).ready(function () {
+            if (window.location.pathname.indexOf('Links/TheStudio') >= 0)
+                $("#TheStudioHeaderLink").attr('class', 'HeaderLinkActive');
+            if (window.location.pathname.indexOf('Links/ListsAndJournals') >= 0)
+                $("#ListsLink").attr('class', 'HeaderLinkActive');
+            if (window.location.pathname.indexOf('Links/Photography') >= 0)
+                $("#PhotographyLink").attr('class', 'HeaderLinkActive');
+            if (window.location.pathname.indexOf('Links/Reviews') >= 0)
+                $("#ReviewsLink").attr('class', 'HeaderLinkActive');
+            if (window.location.pathname.indexOf('Links/MovieRatings') >= 0)
+                $("#MovieRatingsLink").attr('class', 'HeaderLinkActive');
+            if (window.location.pathname.indexOf('Links/WhoWhatAndWhy') >= 0)
+                $("#ShribrosLink").attr('class', 'HeaderLinkActive');
+
+    var searchIndicatorText = "Search Shribros.com...";
+    $("#MasterSearchTextbox").val(searchIndicatorText);
+    $("#MasterSearchTextbox").focus(function () {
+        $("#MasterSearchTextbox").css('color', '#000000');
+        $("#MasterSearchTextbox").val(String.empty);
+    });
+    $("#MasterSearchTextbox").blur(function () {
+        $("#MasterSearchTextbox").css('color', '#606060');
+        $("#MasterSearchTextbox").val(searchIndicatorText);
+    });
+    $("#MasterSearchTextbox").masterSearchAutocomplete({
+        source: function (request, response) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: '<%=ResolveUrl("Default.aspx/SearchSite")%>',
+                data: "{'strSearch':'" + $("#MasterSearchTextbox").val() + "', 'path':'<%= Server.MapPath("./").Replace("\\","|")%>'}",
+                dataType: "json",
+                success: function (data) {
+                    var obj = jQuery.parseJSON(data.d);
+                    response(obj);
+                },
+                error: function (xhr, status) {
+                    alert(xhr.status);
+                }
+            });
+        }
+    });
+});
+    </script>
+    <!--**************************************************************-->
+    <!-----------------Search Functionality - End--------------------->
+    <!--**************************************************************-->
+
+    <title id="Title1" visible="false" runat="server"><%-- hack to turn the auto title off --%></title>
+    <asp:ContentPlaceHolder ID="DefaultHeadContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!--<body onload="disableRightClick()">-->
+<body>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="PageholderTable">
+        <tr>
+            <td>
+                <div class="Header" onclick="location.href='<%=ResolveClientUrl("Default.aspx") %>';" style="cursor: pointer;">
+                    <ul>
+                        <li class="HeaderLink" id="TheStudioHeaderLink"><a href="<%=ResolveClientUrl("Links/TheStudio") %>">
+                            <img src="<%=ResolveClientUrl("Images/Studio_Icon.jpg")%>" /></a></li>
+                        <li class="HeaderLink" id="ReviewsLink"><a href="<%=ResolveClientUrl("Links/Reviews") %>">
+                            <img src="<%=ResolveClientUrl("Images/Reviews_Icon.jpg")%>" /></a></li>
+                        <li class="HeaderLink" id="ListsLink"><a href="<%=ResolveClientUrl("Links/ListsAndJournals") %>">
+                            <img src="<%=ResolveClientUrl("Images/Lists_Icon.jpg")%>" /></a></li>
+                        <li class="HeaderLink" id="PhotographyLink"><a href="<%=ResolveClientUrl("Links/Photography") %>">
+                            <img src="<%=ResolveClientUrl("Images/Photography_Icon.jpg")%>" /></a></li>
+                        <li class="HeaderLink" id="MovieRatingsLink"><a href="<%=ResolveClientUrl("Links/MovieRatings/MovieRatings.aspx")%>">
+                            <img src="<%=ResolveClientUrl("Images/Ratings_Icon.jpg")%>" /></a></li>
+                        <li class="HeaderLink" id="ShribrosLink"><a href="<%=ResolveClientUrl("Links/WhoWhatAndWhy.aspx")%>">
+                            <img src="<%=ResolveClientUrl("Images/Shribros_Icon.jpg")%>" /></a></li>
+                        <%--<li class="Feedback"><a href="#">FEEDBACK</a></li>--%>
+                    </ul>
+                </div>
+                <input type="text" id="MasterSearchTextbox" class="MasterSearchTextbox" />
+                <div class="MainContentHolder">
+                    <asp:ContentPlaceHolder ID="DefaultBodyContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <%-- Floated elements have their own, independent, layout. This dummy div fixes the issue--%>
+                    <div style="clear: both"></div>
+                </div>
+                <div class="Footer">
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

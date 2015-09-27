@@ -1,0 +1,22 @@
+﻿.TwoPanelLayout {
+    width: 48%;
+    float: left;
+    padding: 1%;
+    position: relative;
+}
+
+.TwoPanelLayoutLeft {
+    width: 68%;
+    float: left;
+    padding: 1%;
+    position: relative;
+    text-align: left;
+}
+
+.TwoPanelLayoutRight {
+    width: 28%;
+    float: left;
+    padding: 1%;
+    position: relative;
+    text-align: left;
+}

@@ -1,0 +1,6 @@
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\bin\Debug\Shribros.Photography.XMLGenerator.exe.config
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\bin\Debug\Shribros.Photography.XMLGenerator.exe
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\bin\Debug\Shribros.Photography.XMLGenerator.pdb
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\obj\Debug\Shribros.Photography.XMLGenerator.csprojResolveAssemblyReference.cache
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\obj\Debug\Shribros.Photography.XMLGenerator.exe
+E:\Works\shribros.com\Version4_12122014\Automation\Shribros.Photogrepahy.XMLGenerator\obj\Debug\Shribros.Photography.XMLGenerator.pdb

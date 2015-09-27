@@ -1,0 +1,96 @@
+.Header {
+    height: 107px;
+    background-image: url("../Images/HeaderBackground.png");
+    background-repeat: no-repeat;
+}
+
+    .Header ul {
+        padding: 35px 210px 0px 150px;
+    }
+
+    .Header li {
+        float: left;
+        padding: 0% 4% 0% 1%;
+        list-style: none;
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .Header a {
+        padding: 1px;
+        color: #929191;
+        word-spacing: 1px;
+        font-size: 12px;
+        font-family: Arial;
+        font-weight: 700;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .Header .HeaderLink a {
+        -ms-opacity: 0.5;
+        opacity: 0.5;
+    }
+
+        .Header .HeaderLink a:hover {
+            -ms-opacity: 0.9;
+            opacity: 0.9;
+        }
+
+     .Header .HeaderLinkActive a {
+        -ms-opacity: 0.9;
+        opacity: 0.9;
+    }
+
+    .Header .Studio a {
+        -ms-opacity: 0.5;
+        opacity: 0.5;
+    }
+
+        .Header .Studio a:hover {
+            -ms-opacity: 0.9;
+            opacity: 0.9;
+        }
+
+    .Header .Reviews {
+        width: 70px;
+    }
+
+        .Header .Reviews a:hover {
+            color: #f08302;
+        }
+
+    .Header .Lists {
+        width: 125px;
+    }
+
+        .Header .Lists a:hover {
+            color: #bf71fb;
+        }
+
+    .Header .Photographs {
+        width: 100px;
+    }
+
+        .Header .Photographs a:hover {
+            color: #00d4cd;
+        }
+
+    .Header .Ratings {
+        width: 70px;
+    }
+
+        .Header .Ratings a:hover {
+            color: #b5c501;
+        }
+
+    .Header .Shribros {
+        width: 125px;
+    }
+
+        .Header .Shribros a:hover {
+            color: #ac9600;
+        }
