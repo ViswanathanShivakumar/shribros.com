@@ -6,7 +6,7 @@
     <meta name="description" content="Home page of shribros.com" />
     <meta name="keywords" content="" />
     <meta name="author" content="Shribros" />
-
+    
 	
     <script src="JS/jquery.css.sizes.js" type="text/javascript"></script>
     <script src="JS/jquery.caption.js" type="text/javascript"></script>
@@ -29,7 +29,6 @@
             $(".SubLink4").AddCaption("SubLink4Caption");
         });
 
-
         $(document).ready(function () {
             $("html").scalableBackground("<%=Page.ResolveUrl("bg.jpg") %>", 2500, 1270);
         });
@@ -39,18 +38,18 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="DefaultBodyContentPlaceHolder" runat="Server">
     <div class="PrimaryLink">
-        <a href="Links/TheStudio/blankversenow.aspx" class="MainLink" id="MainLink"></a>
+        <a href="Links/TheStudio/sevenkings.aspx" class="MainLink" id="MainLink"></a>
     </div>
     <div class="SecondaryLink">
         <ul>
-            <li><a href="Links/Photography/Default.aspx" class="SubLink1"></a></li>
-            <li><a href="Links/Reviews/MovieReviews/Interstellar.aspx" class="SubLink2"></a></li>
+            <li><a href="Links/TheStudio/blankversenow.aspx" class="SubLink1"></a></li>
+            <li><a href="Links/Reviews/" class="SubLink2"></a></li>
             <li><a href="Links/Reviews/PerfumeReviews/Hugo Boss Red.aspx" class="SubLink3"></a></li>
             <li><a href="Links/Photography/Default.aspx" class="SubLink4"></a></li>
         </ul>
     </div>
-    <div id="MainLinkCaption">"Blank Verse Now"</div>
-    <div id="SubLink1Caption">Grand Canyon Photo Tour</div>
+    <div id="MainLinkCaption">Seven Kings</div>
+    <div id="SubLink1Caption">Blank Verse Now</div>
     <div id="SubLink2Caption">Movie Reviews</div>
     <div id="SubLink3Caption">Hugo Boss - Perfume Review</div>
     <div id="SubLink4Caption">Food Photography</div>

@@ -9,7 +9,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("html").scalableBackground("<%=Page.ResolveUrl("bg.jpg") %>", 2500, 1200);
-            });
+        });
     </script>
 </asp:Content>
 
@@ -17,7 +17,16 @@
     <div class="TheStudioList">
         <h1>LIVE ACTION</h1>
         <table>
+
             <tr>
+                <td><a href="sevenkings.aspx">
+                    <img src="Studio_Resources/poster_sevenkings.jpg" alt="Seven Kings Poster Image" /></a>
+                    Seven Kings
+                </td>
+                <td><a href="boredom4.aspx">
+                    <img src="Studio_Resources/poster_boredom4.jpg" alt="Boredom IV Downside Up Poster Image" /></a>
+                    Boredom IV Downside Up
+                </td>
                 <td><a href="boredom3.aspx">
                     <img src="Studio_Resources/poster_boredom3.jpg" alt="Boredom III British Moon Poster Image" /></a>
                     Boredom III British Moon
@@ -35,18 +44,17 @@
                     <img src="Studio_Resources/poster_boredom1.jpg" alt="Boredom I Angels Recite Poster Image" /></a>
                     Boredom I Angels Recite
                 </td>
-
+            </tr>
+            <tr>
                 <td><a href="quasi.aspx">
                     <img src="Studio_Resources/poster_quasi.jpg" alt="Quasi Poster Image" /></a>
                     Quasi
                 </td>
+
                 <td><a href="cinemapur.aspx">
                     <img src="Studio_Resources/poster_cinemapur.jpg" alt="Cinema Pur Poster Image" /></a>
                     Cinema Pur
                 </td>
-            </tr>
-            <tr>
-
                 <td><a href="saturate.aspx">
                     <img src="Studio_Resources/poster_saturate.jpg" alt="Saturate Poster Image" /></a>
                     Saturate
@@ -63,16 +71,17 @@
                     <img src="Studio_Resources/poster_cloudedtextures.jpg" alt="Clouded Textures Poster Image" /></a>
                     Clouded Textures
                 </td>
+            </tr>
+            <tr>
                 <td><a href="yourestillalive.aspx">
                     <img src="Studio_Resources/poster_youarestillalive.jpg" alt="You are still alive Poster Image" /></a>
                     You Are Still Alive
                 </td>
+
                 <td><a href="somesaytheworldwillendinfire.aspx">
                     <img src="Studio_Resources/poster_somesaytheworldwillendinfire.jpg" alt="Some say the world will end in fire Poster Image" /></a>
                     Some Say The World Will End In Fire
                 </td>
-            </tr>
-            <tr>
                 <td><a href="aprogressivecall.aspx">
                     <img src="Studio_Resources/poster_aprogressivecall.jpg" alt="A Progressive Call Poster Image" /></a>
                     A Progessive Call
@@ -84,6 +93,10 @@
         <h1>ANIMATED</h1>
         <table>
             <tr>
+                <td><a href="falltorise.aspx">
+                    <img src="Studio_Resources/poster_falltorise.jpg" alt="Fall To Rise Poster Image" /></a>
+                    Another Sky
+                </td>
                 <td><a href="anothersky.aspx">
                     <img src="Studio_Resources/poster_anothersky.jpg" alt="Another Sky Poster Image" /></a>
                     Another Sky
@@ -104,12 +117,13 @@
                     <img src="Studio_Resources/poster_thecatastrophe.jpg" alt="The Catastrophe Poster Image" /></a>
                     The Catastrophe
                 </td>
+
+            </tr>
+            <tr>
                 <td><a href="deathsentence.aspx">
                     <img src="Studio_Resources/poster_deathsentence.jpg" alt="Death Sentence Poster Image" /></a>
                     Death Sentence
                 </td>
-            </tr>
-            <tr>
                 <td><a href="digitali.aspx">
                     <img src="Studio_Resources/poster_digitali.jpg" alt="Digital I Poster Image" /></a>
                     Digital I
