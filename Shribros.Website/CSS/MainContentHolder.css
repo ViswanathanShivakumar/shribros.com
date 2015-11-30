@@ -1,0 +1,6 @@
+﻿.MainContentHolder {
+    /*The padding-top of this control is set through javascript for home page alone*/
+    padding: 40px 10px 0px 10px;
+    background-image: url("../Images/BodyBackground.png");
+    background-repeat: no-repeat;
+}

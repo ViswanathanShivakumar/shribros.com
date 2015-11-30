@@ -1,0 +1,28 @@
+﻿/*Used in pages for creating top links*/
+.Category {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+    .Category a {
+        color: #FFFFFF;
+    }
+
+    .Category li {
+        float: left;
+        border: 1px solid #999999;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 30px;
+        font-size: 14px;
+        font-family: "Arial Narrow";
+        list-style: none;
+        background-color: rgba(51,51,51,0.5);
+    }
+
+        .Category li:hover {
+            background-color: rgba(18,18,18,0.8);
+        }

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Default.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="DefaultHeadContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="DirectorsListHeaderContent" runat="server" />
+
+    <link type="text/css" href="<%=ResolveClientUrl("../../CSS/body.Lists.DirectorsList.css")%>" rel="stylesheet" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("../../JS/jquery.linkhighlight.js")%>"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            HighlightSelectedCategory();
+        });
+        $(document).ready(function () {
+            $("html").scalableBackground("<%=Page.ResolveUrl("bg.jpg") %>", 2500, 1270);
+        });
+    </script>
+</asp:Content>
+
+<asp:Content ID="ListsAndJournalData" ContentPlaceHolderID="DefaultBodyContentPlaceHolder" runat="Server">
+    <h1>100 Great Directors</h1>
+    <div class="Category">
+        <ul>
+            <li><a href="List_100_Greatest_Directors_A.aspx">A</a></li>
+            <li><a href="List_100_Greatest_Directors_B.aspx">B</a></li>
+            <li><a href="List_100_Greatest_Directors_C.aspx">C</a></li>
+            <li><a href="List_100_Greatest_Directors_D.aspx">D</a></li>
+            <li><a href="List_100_Greatest_Directors_E.aspx">E</a></li>
+            <li><a href="List_100_Greatest_Directors_F.aspx">F</a></li>
+            <li><a href="List_100_Greatest_Directors_H.aspx">H</a></li>
+            <li><a href="List_100_Greatest_Directors_I.aspx">I</a></li>
+            <li><a href="List_100_Greatest_Directors_J.aspx">J</a></li>
+            <li><a href="List_100_Greatest_Directors_K.aspx">K</a></li>
+            <li><a href="List_100_Greatest_Directors_L.aspx">L</a></li>
+            <li><a href="List_100_Greatest_Directors_M.aspx">M</a></li>
+            <li><a href="List_100_Greatest_Directors_O.aspx">O</a></li>
+            <li><a href="List_100_Greatest_Directors_P.aspx">P</a></li>
+            <li><a href="List_100_Greatest_Directors_Q.aspx">Q</a></li>
+            <li><a href="List_100_Greatest_Directors_R.aspx">R</a></li>
+            <li><a href="List_100_Greatest_Directors_S.aspx">S</a></li>
+            <li><a href="List_100_Greatest_Directors_T.aspx">T</a></li>
+            <li><a href="List_100_Greatest_Directors_V.aspx">V</a></li>
+            <li><a href="List_100_Greatest_Directors_W.aspx">W</a></li>
+            <li style="width: 218px;"><a href="List_100_Greatest_Directors_More.aspx">Honourable Mentions</a></li>
+        </ul>
+    </div>
+    <div style="padding-top: 70px;">
+        <asp:ContentPlaceHolder ID="ListsAndJournalContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <form id="form1" runat="server">
+        <ShribrosControl:PostComment ID="PostComment1" runat="server" />
+    </form>
+</asp:Content>

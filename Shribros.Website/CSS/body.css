@@ -1,0 +1,123 @@
+﻿/*These settings will be the master for all pages through the site*/
+body, html {
+    margin: 0px;
+    font-family: Arial; /* default website font */
+    text-align: justify;
+    color: #000000; /* default font color */
+    font-size: 13px; /* default font size */
+    line-height: 20px;
+    height: 100%;
+    padding: 0px;
+}
+
+    /* default link style */
+    body a {
+        color: #404040;
+        text-decoration: none;
+    }
+
+    body h1 {
+        /*font-size: 15px;
+        font-weight: 900;
+        color: #264ba6;
+        margin: 0px 0px 5px 0px;*/
+        font-family: 'Arial Narrow', 'Nimbus Sans L', sans-serif;
+        font-size: 24px;
+        color: #808080;
+        padding-bottom: 5px;
+    }
+
+        body h1 .h1Variation1 {
+            font-family: Impact;
+            word-spacing: 1px;
+            font-weight: 100;
+            color: #437db3;
+            font-size: 22px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #437db3;
+            text-align: left;
+        }
+
+    body h2 {
+        font-family: Impact;
+        font-size: 22px;
+        color: #437db3;
+        padding-right: 10px;
+        margin: 0px;
+        font-weight: 100;
+    }
+
+    body h3 {
+        font-family: Arial;
+        font-size: 12px;
+        font-style: italic;
+        margin: 5px 0px 5px 0px;
+        color: #133381;
+    }
+
+        body h3 .h3Variation1 {
+            font-family: Arial;
+            font-size: 14px;
+            color: #808080;
+            margin: 0px;
+            font-weight: 100;
+        }
+
+    body h4 {
+        /*font-size: 15px;
+        font-style: italic;
+        margin: 5px 0px 5px 0px;
+        color: #FFFFFF;*/
+        color: #595a5a;
+        font-style: normal;
+        font-family: Impact;
+        font-size: 17px;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    body h5 {
+        font-family: Arial;
+        font-size: 15px;
+        color: #808080;
+        font-weight: 100;
+        margin: 0px;
+        margin-left: -35px;
+    }
+
+    body h6 {
+        font-family: Arial;
+        font-size: 15px;
+        color: #404040;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    body img {
+        border: 1px solid #999999;
+    }
+
+    body ul {
+        list-style: none;
+        margin: 0px;
+    }
+
+    body p {
+        text-align: justify;
+    }
+
+        body p a {
+            color: #437db3;
+            text-decoration: none;
+        }
+
+            body p a:hover {
+                text-decoration: overline;
+            }
+
+    /*Remove default indentation of list elements and set it to 0*/
+    body ul {
+        padding: 0px 0px 0px 0px;
+    }

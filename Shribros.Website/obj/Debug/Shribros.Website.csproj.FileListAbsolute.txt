@@ -1,0 +1,9 @@
+E:\BitBucket\Shribros\Shribros.Website\obj\Debug\Shribros.Website.csprojResolveAssemblyReference.cache
+E:\BitBucket\Shribros\Shribros.Website\bin\Shribros.Website.dll.config
+E:\BitBucket\Shribros\Shribros.Website\bin\Shribros.Website.dll
+E:\BitBucket\Shribros\Shribros.Website\bin\Shribros.Website.pdb
+E:\BitBucket\Shribros\Shribros.Website\bin\HtmlAgilityPack.dll
+E:\BitBucket\Shribros\Shribros.Website\bin\HtmlAgilityPack.pdb
+E:\BitBucket\Shribros\Shribros.Website\bin\HtmlAgilityPack.xml
+E:\BitBucket\Shribros\Shribros.Website\obj\Debug\Shribros.Website.dll
+E:\BitBucket\Shribros\Shribros.Website\obj\Debug\Shribros.Website.pdb
