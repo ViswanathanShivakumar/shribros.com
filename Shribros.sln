@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Shribros", "http://localhos
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50798"
-		Debug.AspNetCompiler.PhysicalPath = "..\Shribros\"
+		Debug.AspNetCompiler.PhysicalPath = "E:\BitBucket\Shribros\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50798\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_50798"
-		Release.AspNetCompiler.PhysicalPath = "..\Shribros\"
+		Release.AspNetCompiler.PhysicalPath = "E:\BitBucket\Shribros\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50798\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\Shribros\"
+		SlnRelativePath = "E:\BitBucket\Shribros\"
 	EndProjectSection
 EndProject
 Global
