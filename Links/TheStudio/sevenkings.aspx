@@ -19,18 +19,20 @@
         <p>"Seven Kings" is our first improvisational drama. Inspired from our own ways of working out a film. This film is another experiment from us.</p>
         <ul>
             <li><b>Year:</b> 2015</li>
-            <li><b>Editing, Sound Editing, Visual Effects:</b> Viswanathan</li>
-             <li><b>Music:</b> Viswanathan</li>
-            <li><b>Cinematography, Cast, Direction : </b> Shribros</li>
-            <li><b>Duration:</b> </li>
-            <li><b>Shot in:</b> </li>
+            <li><b>Duration:</b> 12 Minutes 19 Seconds</li>
+            <li><b>Performed, Shot and Directed by</b> Srivathsa and Viswanathan</li>
+            <li><b>Editing:</b> Viswanathan</li>
+            <li><b>Sound Editing and Visual Effects:</b> Viswanathan</li>
+            <li><b>Music:</b> Srivathsa</li>
+
             <li><b>Genre:</b> Improvisational Drama</li>
+            <li><b>Shot with</b> Nikon D90</li>
         </ul>
     </div>
     <div class="TwoPanelLayoutRight">
         <img src="Studio_Resources/poster_large_sevenkings.jpg" alt="Poster of Seven Kings" />
         <ul class="BorderedList">
-        <li><a href="https://youtu.be/FU1hQZ9e0sc" class="youtube">MOVIE
+            <li><a href="https://youtu.be/FU1hQZ9e0sc" class="youtube">MOVIE
             </a></li>
         </ul>
     </div>

@@ -95,7 +95,7 @@
             <tr>
                 <td><a href="falltorise.aspx">
                     <img src="Studio_Resources/poster_falltorise.jpg" alt="Fall To Rise Poster Image" /></a>
-                    Another Sky
+                    Fall To Rise
                 </td>
                 <td><a href="anothersky.aspx">
                     <img src="Studio_Resources/poster_anothersky.jpg" alt="Another Sky Poster Image" /></a>
