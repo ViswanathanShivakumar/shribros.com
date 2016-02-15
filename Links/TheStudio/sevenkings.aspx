@@ -31,10 +31,7 @@
     </div>
     <div class="TwoPanelLayoutRight">
         <img src="Studio_Resources/poster_large_sevenkings.jpg" alt="Poster of Seven Kings" />
-        <ul class="BorderedList">
-            <li><a href="https://youtu.be/FU1hQZ9e0sc" class="youtube">MOVIE
-            </a></li>
-        </ul>
+       
     </div>
 </asp:Content>
 
