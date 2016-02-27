@@ -6,6 +6,23 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ListsAndJournalContentPlaceHolder" runat="Server">
     <h1>10 Greatest Movies of all time</h1>
     <ul class="List">
+          <li>
+            <h2>2015 - DHEEPAN / COURT (TIE)</h2>
+            <h3>JACQUES AUDIARD / CHAITANYA TAMHANE</h3>
+            <h3>FRENCH / MARATHI</h3>
+               
+              Jacques Audiard's "Dheepan" is a film, that not many people can relate to with their own live and yet they would at many moments.
+              It's a French film with most of its dialogues in Tamil; Very native, understated and surprising passionate, "Dheepan" has great charisma from the lead actors,alarming background score and superb
+              cinematography. Although, flawed to its own good, "Dheepan"is intense, value driven,and along with "Court" is the best movie of the year.
+              
+              "Court" by Chaitanya Tamhane, is a great film; A film that will stand the test of time; it is a courtroom drama that often has the camera
+              sitting outside the court. It is an observational drama, that is driven vividly by the clarity of director's vision. Heartachingly
+              realistic, "Court" drills down the society in way that no film in India has ever done before.
+               
+
+            <br />
+            Stiff competition with "Hard to be God", "The Revenant"
+        </li>
        
            <li>
             <h2>2014 - WINTER SLEEP</h2>
@@ -41,15 +58,19 @@
 
 
            <li>
-            <h2>2011 - A SEPARATION</h2>
-            <h3>ASGHAR FARHADI</h3>
+            <h2>2011 - A SEPARATION / ONCE UPON A TIME IN ANATOLIA (TIE)</h2>
+            <h3>ASGHAR FARHADI / NURI BILGE CEYLAN</h3>
             <h3>PERSIAN</h3>
             Farhadi's "A Separation" is a meditation of integrity and truth. 
       The film deftly handles a very complex, yet universal
       subject, with an unblemished script. The movie succeeds in several layers,
       even as a thriller and not many would deny us selecting "A Separation" as the best movie of the year.
+
+               "Once Upon a Time in Anatolia" is an achievement. N B Ceylan's meditative effortless effort, offers the audience an atmospheric, beautiful
+               and vivid film, that will linger in the mind for a very long time. Nothing short of brilliance, this movie ties up with "A Seperation"
+               for the best film of the year.
             <br />
-            Stiff competition with "Once Upon a Time in Anatolia"
+            
         </li>
 
            <li>
