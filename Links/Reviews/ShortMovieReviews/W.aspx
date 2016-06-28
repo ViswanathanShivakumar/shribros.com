@@ -13,6 +13,13 @@
     <p>
       Nuri Bilge Ceylan’s “Winter Sleep” , with Haluk Bilginer as a former actor, running a hotel on a scenic side in Anatolia, is epic in length and brilliant in composition. The struggle of characters in the movie are within themselves majorly, whilst failing to understand it. Very talkative,  captivating and demanding audience’s attention on every bit, “Winter Sleep” is a patient and faithful movie. Although, I found Ceylan’s previous work a masterpiece (Once Upon a Time in Anatolia), “Winter Sleep” is nothing short of a brilliant and masterful movie.
     </p>
+     <a name="Waking Life"></a>
+    <h2>Waking Life | 2001
+    </h2>
+    <p>
+“Waking Life” is a masterpiece. It is a director’s dream; a dream with an ocean of dialogues that meander between thoughts, reality and dreams. Richard Linklater doesn’t trick us with the animated gimmickry rather takes us with a ride that is deep and zealous about the life it, disowns and owns in equal parts. It is inventive, meticulously constructed, and pompously art-house; Full of conversations, smudged with a surreal ambience, “Waking Life” takes a form that doesn’t just gleefully mess around your brain, but exceptionally and independently ponders your subconscious with existential facts; Hypnotic piece of work from Richard Linklater.
+
+    </p>
     <a name="Whiplash"></a>
     <h2>Whiplash | 2014
     </h2>
