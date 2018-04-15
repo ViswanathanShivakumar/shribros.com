@@ -87,7 +87,4 @@
                “Vishwaroopam” might have been intended to the mass deprived of authentic good quality movies for a while. 
                Well, luckily I’m not into that scarcity, yet. 
     </p>
-    <form id="form1" runat="server">
-        <ShribrosControl:PostComment ID="PostComment1" runat="server" />
-    </form>
 </asp:Content>

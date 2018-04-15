@@ -7,13 +7,28 @@
     <meta name="author" content="Shribros" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ShortReviewsContentPlaceHolder" runat="Server">
-        <a name="Edge of Tomorrow"></a>
+      <a name="Ex-Machina"></a>
+    <h2>Ex-Machina | 2015
+    </h2>
+    <p>
+It was surprising to see how minimal a very good, psychological science fiction can be; a movie like “
+Ex-Machina” achieves what many blockbuster science fiction films, try hard to do. With Alicia Vikander’s flamboyant presence, Oscar Isaac’s wicked turn and Alex Garland’s deft, razor sharp direction, “Ex-Machina”, luminously tries to explore human nature, inside, what is not. A steady thriller that spews out fierce script every moment, and ends terrific.
+    </p>   
+    
+     <a name="Edge of Tomorrow"></a>
     <h2>Edge of Tomorrow | 2014
     </h2>
     <p>
         “Edge of tomorrow” is a classy mix of “Groundhog day” and a number of war films. It is also an alien invasion movie.  It’s a video game and Tom Cruise trying to play it very hard to reach the final level. Tom Cruise and Emile Blunt form an exciting pair for this racy, clever, action entertainer, that is typically Hollywood and especially towards the end.
     </p>
-     <a name="Epic"></a>
+     <a name="Erin Brokovich"></a>
+    <h2>Erin Brokovich | 2000
+    </h2>
+    <p>
+Primarily, “Erin Brokovich” is a significantly savvy and smart; directed with a promise that Steven Soderberg seldom fails to keep up, right from his “Sex, Lies and Videotape”, “Erin Brokovich” combines the massive charm and talent of Julia Roberts, who plays the protagonist of the title character. Wholly and satisfactorily Hollywood, the movie also deploys Albert Finney and Aaron Eckhart in roles that we find tough to substitute. With flaws of plot and character, overshadowed consciously, “Erin Brokovich” is often exciting, if not completely real to life and entirely engaging.
+
+    </p>
+     
     <a name="Epic"></a>
     <h2>Epic | 2013
     </h2>

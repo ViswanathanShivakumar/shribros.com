@@ -7,7 +7,12 @@
     <meta name="author" content="Shribros" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ShortReviewsContentPlaceHolder" runat="Server">
-    <a name="Pride"></a>
+    <a name="Paddington"></a>
+    <h2>Paddington | 2014
+    </h2>
+    <p>
+“Paddington” reminded me of the family entertainers from the 80s and early 90s; Heartening, family friendly and full of tasteful clichés. This movie built on adored children’s character is compellingly unassuming, yet charmingly amusing; the background is excellent (London, as in a children’s book) and the visual comedy is outright, enjoyable. Nicole Kidman’s villain and the ever dependable Sally Hawkins, make the movie even healthier. Cute and spiced with British comic sense, “Paddington” is a good watch.    </p>
+        <a name="Pride"></a>
     <h2>Pride | 2014
     </h2>
     <p>
@@ -18,6 +23,19 @@
     </h2>
     <p>
         Asghar Farhadi’s “The Past” is indisputably the work of a master, who precisely knows his characters, the evenhandedness in plot and the scrupulous nature of illuminating them in his own style. It is fascinating also to conceive in a perspective that the characters might seem to jump off from where “A Separation” had left off to “The Past”, but, in a different location. Safely, Farhadi is a sound contender to be called the “art-house Hitchcock”. With intense performances from the leads, Berenice Bejo, in particular, “The Past” is universal, intricate, mature and quite a piece of work. One of the best, this year.
+    </p>
+      <a name="Pineapple Express"></a>
+    <h2>Pineapple Express | 2008
+    </h2>
+    <p>
+David Gordon Green is director, who can be set as an example for a man capable of making great films, but tarnished by his inconsistency. Most of his non-serious films fall under his weedier ones, with an exclusion of “Pineapple Express”, which is a fun riot. David Gordon Green effectually uses the resourcefulness of its leads (Seth Rogan and James Franco) with this buddy comedy that betters itself every moment with a far funnier scene. Reliably funny, enjoyably discomforting, “Pineapple Express” is a fun ride.
+
+    </p>
+    <a name="Planet Terror"></a>
+    <h2>Planet Terror | 2007
+    </h2>
+    <p>
+Robert Rodriguez’ episode of the “Grindhouse” is a clean grindhouse, slasher movie, that doesn’t free itself from the chains of its genre. It amuses as it is ordained to and in a way that every other well-made exploitation movie does. While it doesn’t stand up to its dialogue driven partner made by QT, Rodriguez dark style and impatience is seen throughout. With a stellar cast, “Planet Terror” is nasty, gory, murky and stylish; It is also a superb tribute to the B-movies from the past.
     </p>
     <a name="Planes"></a>
     <h2>Planes | 2012

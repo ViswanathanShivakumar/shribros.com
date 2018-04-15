@@ -39,4 +39,18 @@
     <p>
         “Frozen” is a movie that you can call a typical Disney film, in a superlative way. It has an captivating appeal, and outstanding visuals. Moments like the ship carrying the sisters’ parents drowning synonymously with the music and the tad nicely twisted finale, makes “Frozen” better than most of the run-of-the-mill animated movies this year. Fantastically animated, beautifully scored, “Frozen” is a thoroughly enjoyable fun fare.
     </p>
+    <a name="Fukrey"></a>
+    <h2>Fukrey | 2013
+    </h2>
+    <p>
+Mrigdeep Singh Lamba's “Fukrey” is a funny movie; but is also a movie that falters almost ubiquitously. Its use of youth is contemptable of a remark and is to a degree, devoid of the madcap comedy that it aims. But the actors just do their part well, holding up the thin script, also entertained by a hummable music score by Ram Sampath (Ambarsariya & Jugaad, in particular). Often disjointed and messy, “Fukrey” only entertains in the first act and then bores with its monotonous manipulation of comical circumstances.
+
+    </p>
+     <a name="Ferris Bueller's Day Off"></a>
+    <h2>Ferris Bueller's Day Off | 1986
+    </h2>
+    <p>
+John Hughes’ “Ferris Bueller’s Day off” is as charming as its lead, Mathew Broderick (who plays the title character) is. Compellingly fun and often funny, this comedy is all about youth and makes us drool of the breezy adolescence, that we might have once passed inattentively. With all round good performances, including Mia Sara, Alan Ruck, Jeffrey Jones and the fantastic cameo by Charlie Sheen, this light gem is a cool diversion that essentially brightens up your day. Silly, yet, confidently made, “Ferris Bueller” is a neat comedy that can be thoroughly relished, throughout.
+
+    </p>
 </asp:Content>

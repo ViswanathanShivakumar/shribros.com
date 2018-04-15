@@ -6,7 +6,6 @@
     <meta name="description" content="Home page of shribros.com" />
     <meta name="keywords" content="" />
     <meta name="author" content="Shribros" />
-    
 	
     <script src="JS/jquery.css.sizes.js" type="text/javascript"></script>
     <script src="JS/jquery.caption.js" type="text/javascript"></script>

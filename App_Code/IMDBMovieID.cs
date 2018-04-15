@@ -61,7 +61,7 @@ public static class IMDBMovieID
     public const string WallE = "tt1229238";
     public const string WarHorse = "tt1229238";
     public const string JurassicWorld = "tt0369610";
-    
+
     public static string GetMoviePosterLinkFromID(string imdbID, int posterHeight = 200)
     {
         if (string.IsNullOrEmpty(imdbID))
@@ -73,7 +73,38 @@ public static class IMDBMovieID
     public static string GetMoviePosterLink(string movieName, int posterHeight = 200)
     {
         SearchData movieData = null;
-        string requestUriString = string.Format("http://www.omdbapi.com/?t={0}&r=json&plot=full",movieName.Replace(" ", "+"));
+        string requestUriString = string.Format("http://www.omdbapi.com/?t={0}&r=json&plot=full",
+            movieName.Replace(" ", "+"));
+        WebRequest request = WebRequest.Create(requestUriString);
+        using (var twitpicResponse = (HttpWebResponse) request.GetResponse())
+        {
+            if (twitpicResponse.StatusCode == HttpStatusCode.OK)
+            {
+                Stream responseStream = twitpicResponse.GetResponseStream();
+                if (responseStream != null)
+                {
+                    using (var reader = new StreamReader(responseStream))
+                    {
+                        var js = new JavaScriptSerializer();
+                        var responseText = reader.ReadToEnd();
+                        movieData = (SearchData) js.Deserialize(responseText, typeof (SearchData));
+                    }
+                }
+            }
+        }
+
+        if (movieData == null)
+            return string.Empty;
+
+        return string.Format("http://img.omdbapi.com/?i={0}&apikey={1}&h={2}", movieData.imdbID, Config.OMDBAPIKey,
+            posterHeight);
+    }
+
+    public static string GetMoviePosterLinkID(string imdbID, int posterHeight = 200)
+    {
+        SearchData movieData = null;
+        string requestUriString = string.Format("http://www.omdbapi.com/?i={0}&r=json&plot=full",
+            imdbID);
         WebRequest request = WebRequest.Create(requestUriString);
         using (var twitpicResponse = (HttpWebResponse)request.GetResponse())
         {
@@ -92,9 +123,11 @@ public static class IMDBMovieID
             }
         }
 
-        if (movieData==null)
+        if (movieData == null)
             return string.Empty;
 
-        return string.Format("http://img.omdbapi.com/?i={0}&apikey={1}&h={2}", movieData.imdbID, Config.OMDBAPIKey, posterHeight);
+        return movieData.Poster.Replace("SX300", "SX100");
+        /* return string.Format("http://img.omdbapi.com/?i={0}&apikey={1}&h={2}", movieData.imdbID, Config.OMDBAPIKey,
+            posterHeight);*/
     }
 }

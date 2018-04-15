@@ -3,25 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Shribros", "http://localhost:50798", "{2C5B4115-A3E1-4886-954A-A8DB3D86CE03}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:81", "http://localhost:81", "{A242D04B-8583-40AC-9756-D4130D7A0446}"
 	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
+		UseIISExpress = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_50798"
-		Debug.AspNetCompiler.PhysicalPath = "E:\BitBucket\Shribros\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50798\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_81"
+		Debug.AspNetCompiler.PhysicalPath = "..\shribros\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_81\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_50798"
-		Release.AspNetCompiler.PhysicalPath = "E:\BitBucket\Shribros\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50798\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_81"
+		Release.AspNetCompiler.PhysicalPath = "..\shribros\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_81\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "E:\BitBucket\Shribros\"
+		SlnRelativePath = "..\shribros\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShribrosService", "http://localhost:81/ShribrosService", "{8A5BA9E3-67A7-450F-A552-5F73C99F37A4}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/ShribrosService"
+		Debug.AspNetCompiler.PhysicalPath = "ShribrosService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ShribrosService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ShribrosService"
+		Release.AspNetCompiler.PhysicalPath = "ShribrosService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ShribrosService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ShribrosService\"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +50,10 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C5B4115-A3E1-4886-954A-A8DB3D86CE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C5B4115-A3E1-4886-954A-A8DB3D86CE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A242D04B-8583-40AC-9756-D4130D7A0446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A242D04B-8583-40AC-9756-D4130D7A0446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5BA9E3-67A7-450F-A552-5F73C99F37A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5BA9E3-67A7-450F-A552-5F73C99F37A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

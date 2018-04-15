@@ -1,6 +1,0 @@
-E:\BitBucket\Shribros\Shribros.Service\bin\Shribros.Service.dll.config
-E:\BitBucket\Shribros\Shribros.Service\bin\Shribros.Service.dll
-E:\BitBucket\Shribros\Shribros.Service\bin\Shribros.Service.pdb
-E:\BitBucket\Shribros\Shribros.Service\obj\Debug\Shribros.Service.csprojResolveAssemblyReference.cache
-E:\BitBucket\Shribros\Shribros.Service\obj\Debug\Shribros.Service.dll
-E:\BitBucket\Shribros\Shribros.Service\obj\Debug\Shribros.Service.pdb

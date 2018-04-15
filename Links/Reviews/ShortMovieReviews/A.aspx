@@ -7,6 +7,21 @@
     <meta name="author" content="Shribros" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ShortReviewsContentPlaceHolder" runat="Server">
+       <a name="A Most Violent Year"></a>
+    <h2>A Most Violent Year | 2014
+    </h2>
+    <p>
+With an impressive movie lineup, till now, J.C. Chandor, follows it up with his best work yet, “A Most Violent Year”; this movie builds up a character driven, almost violent free gangster-like thrilling atmosphere, powered by Oscar Isaac and Jessica Chastain’s delightful performances; “A Most Violent Year”’s cinematography sets a discrete stark imagery, that gets the audience for the weightiness that the movie aims too. May be a little patient in its execution, but pretenselessly so.    </p>
+
+
+     <a name="A Bronx Tale"></a>
+    <h2>A Bronx Tale | 1993
+    </h2>
+    <p>
+“A Bronx Tale” by Robert De Niro, reflects the director’s attachment to Martin Scorsese’s movies and its sensibilities. It is an intense and superb debut from the actor, which achieves the tightness that it anticipates and also has an even better morale, which we see absent in most of the crime movies. It is touching as it is fetching, with unswerving, fantastic performance from the actors including De Niro and Chazz Palminteri. “A Bronx Tale” albeit a touch flawed, but can be easily unheeded, for the effort that warrants attention.
+
+    </p>
+
        <a name="The Amazing Spider-Man 2"></a>
     <h2>The Amazing Spider-Man 2 | 2014
     </h2>
@@ -34,6 +49,12 @@
          While Christian Bale, Dominic Cooper and Jeremy Renner excel, the brilliant Jenifer Lawrence and Wonderful Amy Adams shine at the top.
          “American Hustle” is flabby sometimes, but the pop energy is rapturous and entirely amusing.
     </p>
+     <a name="American Sniper"></a>
+    <h2>American Sniper | 2014
+    </h2>
+    <p>
+        There is a moment of a very silly awkwardness in Clint Eastwood’s “American Sniper”. Bradley Cooper holds a baby in the film, as everyone in the theatre, recognizes, it is a dummy. But, overlooking such overlooked spots, the film, overall has many potentials of a typical American Oscar bait. Well intentioned, effortlessly directed, the movie grows well only to weaken a bit towards the end. “American Sniper” cabinets the acting skills of Bradley Cooper, but just manages, to pull it off as a respectable film, which could have been, given the director’s stature, a fantastic film.
+    </p>
 
     <a name="All is Lost"></a>
     <h2>All is Lost| 2013
@@ -50,5 +71,12 @@
     </h2>
     <p>
        “Airplane” is not a spoof altogether. It is full of gags and ridiculous deadpan. Directed by David Zucker and Jerry Zucker, this comedy is often hilarious, as it is silly. Faintly dated, it is corny and with a good tempo. But, is also, very essential that placed a holder, for the movies, that were to come. Effective with the cultural references and performed with great wit, by Robert Hays, Lloyd Bridges and Leslie Nelson, “Airplane”, is very funny.
+    </p>
+     <a name="Anegan"></a>
+    <h2>Anegan| 2015
+    </h2>
+    <p>
+“Anegan” is a boring film. K.V. Anand falters with his intention and implementation of the same. Puzzling motives, irritable sequence of romance, jumbled scripting, makes “Anegan”, passable.  A few moments, might interest the audience to look further, just to disappoint. Reliably, Dhanush does well and only his presence makes us sit through the whole mess of a pointless reincarnation story.
+
     </p>
 </asp:Content>

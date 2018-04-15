@@ -7,6 +7,35 @@
     <meta name="author" content="Shribros" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ShortReviewsContentPlaceHolder" runat="Server">
+      <a name="A Girl Walks Home Alone At Night "></a>
+    <h2>A Girl Walks Home Alone At Night | 2014
+    </h2>
+    <p>
+“A Girl walks home alone at night” is shot in black and white and what happens in the movie, mostly happens at night and that justifies the title; Not only does that defend the title, but also is a blindingly imaginative piece of work, which crosses more than a few genres and offers a superlative pleasure, with its soulfulness. Ana Lily Amirpour’s movie is admirably deft and free flowing; bursting with punk style and gorgeous frames, this Iranian vampire western is downright original, electrifying, extravagant and combines romance, noir and horror with a jubilant mashup, which will loiter in our minds for a very long time. Sheila Vand does her part well, frequently with those fully lit expressive eyes and when she, as the protagonist, tells the young boy to grow up well and be a good man, we all get to know, what Ana Lily Amirpour’s intentions are.
+
+    </p>
+     <a name="Gone Girl"></a>
+    <h2>Gone Girl | 2014
+    </h2>
+    <p>
+We know David Fincher; that man who directs dark, gritty tales, in a way that only he could direct. “Gone Girl” lands from his pocket as another admirable illustration of his craft.  Based on Gillian Flynn’s book, this movie spins a wild tale that is riveting, electrifying, psychosexual and shockingly well made.
+A manipulative attempt as it might seem on the outside, which certainly it is, the movie delves deep into human nature, to prove that wrong and succeeds mostly in building up that illusion; it leaves a scar on the audience, who are familiarized to the vivid portrayals of a minimal family in deep dysfunction. A triumph of sorts, for David Fincher; and Rosamund Pike, as well.
+    </p>
+     <a name="Gattaca"></a>
+    <h2>Gattaca | 1997
+    </h2>
+    <p>
+Andrew Niccol’s “Gattaca” is an excellent science fiction film (on genetic engineering), which is brainy and ambitious. It is about identities and the perils of technology misuse. Ethan Hawke and Jude Law play their parts with expressiveness. While the lab created babies is a likelihood in the future, this film looks at its loop holes, as does most of the sci-fi films, as a happy path never engrosses in films. “Gattaca”, notwithstanding its flaws and illogical situations, flourishes in ardently charming the audience and also is quite suspenseful in the right way. 
+
+    </p>
+     <a name="Goodbye to Language"></a>
+    <h2>Goodbye to Language | 2014
+    </h2>
+    <p>
+I would like to know the purpose behind, Jean Luc Godard making movies, that are purposefully impermeable, having in hand, the characters and themes that are so unassuming and universal. Perhaps , I wouldn’t dare ask him, for the fear I have is not that he might reply back boldly, but that he would think about stop making such films; because, I love this post era Godard; perhaps just not as much as I did the young man. “Goodbye to Language” can be measured as, either a work of a genius or  the work of a man working on his philosophy of life, as the director did with his more recent films; either ways it is beautiful and involving in way that only Godard can pull it off.
+    </p>
+
+
     <a name="The Grand Budapest Hotel"></a>
     <h2>The Grand Budapest Hotel | 2014
     </h2>

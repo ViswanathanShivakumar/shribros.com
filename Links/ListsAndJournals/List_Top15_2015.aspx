@@ -5,7 +5,7 @@
     <meta name="description" content="List of the best 15 movies in 2015" />
     <style>
         .List li {
-            height: 150px;
+            height: 105px;
         }
 
         .List img {
@@ -30,75 +30,75 @@
     <h1>Top 15 movies of 2015</h1>
     <ul class="List">
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt4374460")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt4374460",100)%>" />
             <h2>AFERIM!</h2>
             <h3>RADU JUDE</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt2330746")%>" /><h2>A GIRL WALKS HOME ALONE AT NIGHT</h2>
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt2330746",100)%>" /><h2>A GIRL WALKS HOME ALONE AT NIGHT</h2>
             <h3>ANA LILY AMIRPOUR</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt1883180")%>" /><h2>A PIGEON SAT ON A BRANCH REFLECTING EXISTENCE</h2>
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt1883180",100)%>" /><h2>A PIGEON SAT ON A BRANCH REFLECTING EXISTENCE</h2>
             <h3>ROY ANDERSSON</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt3682448")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt3682448",100)%>" />
             <h2>BRIDGE OF SPIES</h2>
             <h3>STEVEN SPIELBERG</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt3717068")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt3717068",100)%>" />
             <h2>COURT</h2>
             <h3>CHAITANYA TAMHANE</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt4082068")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt4082068",100)%>" />
             <h2>DHEEPAN</h2>
             <h3>JACQUES AUDIARD</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt2884018")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt2884018",100)%>" />
             <h2>MACBETH</h2>
             <h3>JUSTIN KURZEL</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt3013610")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt3013610",100)%>" />
             <h2>MIA MADRE</h2>
             <h3>NANNI MORETTI</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt2328813")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt2328813",100)%>" />
             <h2>HARD TO BE A GOD</h2>
             <h3>ALEKSEY GERMAN</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt3460252")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt3460252",100)%>" />
             <h2>HATEFUL EIGHT, THE</h2>
             <h3>QUENTIN TARANTINO</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt2096673")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt2096673",100)%>" />
             <h2>INSIDE OUT</h2>
             <h3>PETE DOCTER, RONNIE DEL CARMEN</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt1392190")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt1392190",100)%>" />
             <h2>MAD MAX : FURY ROAD</h2>
             <h3>GEORGE MILLER</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt1663202")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt1663202",100)%>" />
             <h2>REVENANT, THE</h2>
             <h3>ALEJANDRO GONZALEZ INARRITU</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt2488496")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt2488496",100)%>" />
             <h2>STAR WARS: THE FORCE AWAKENS</h2>
             <h3>J J ABRAMS</h3>
         </li>
         <li>
-            <img src="<%=IMDBMovieID.GetMoviePosterLinkID("tt4359416")%>" />
+            <img src="<%=IMDBMovieID.GetMoviePosterLinkFromID("tt4359416",100)%>" />
             <h2>TAXI</h2>
             <h3>JAFAR PANAHI</h3>
         </li>

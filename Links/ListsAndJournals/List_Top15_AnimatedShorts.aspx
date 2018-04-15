@@ -5,7 +5,7 @@
     <meta name="description" content="List of best 15 animation shorts and additional honourable metnions" /></asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ListsAndJournalBodyContent" Runat="Server">
-     <h1>ALL TIME 15 GREATEST ANIMATED SHORTS</h1>
+    <h1>ALL TIME 15 GREATEST ANIMATED SHORTS</h1>
             <ul class="List">
                 <li><h2>CHARADE </h2><h5>(1984)</h5><h3>JOHN MINNIS</h3></li>
                 <li><h2>DAY AND NIGHT </h2><h5>(2010)</h5><h3>TEDDY NEWTON</h3></li>
