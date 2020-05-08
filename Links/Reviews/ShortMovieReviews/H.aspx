@@ -7,7 +7,13 @@
     <meta name="author" content="Shribros" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ShortReviewsContentPlaceHolder" runat="Server">
-    
+       <a name="The Holy Mountain"></a>
+    <h2>The Holy Mountain | 1973
+    </h2>
+    <p>
+“The Holy Mountain” can be considered as the work of a prodigy; a prodigy, whose imagination, repeatedly shocks us with the disjointed, impetuous, grotesque and hallucinatory imagery, that’s more an exploitation than a film. It’s like Salvador Dali and Luis Bunuel sat and imagined a movie, through their obnoxious moments. But with its dull, bizarre visual pervert poetry, Alejandro Jodorowsky, brings us a ride that might have just deciphered our shabby dreams, to a movie; The closing few scenes are amazing, as they are brilliant. Not for the faint heart, “The Holy Mountain” is worth the journey.
+
+    </p>
     <a name="How to Train your Dragon 2"></a>
     <h2>How to Train your Dragon 2 | 2014
     </h2>
@@ -37,5 +43,19 @@
     </h2>
     <p>
         The “middle part” of The Hobbit series by Peter Jackson is an exciting film, which is thoroughly enjoyable as any of the Lord of the Rings movies or the first Hobbit. But what makes it differ from the LOTR films is the lack of emotional resonance and powerful dialogues. Nevertheless, it deserves to be seen for the thrilling, fun filled, action oriented film making. It’s beautiful and spectacular to watch.
+    </p>
+     <a name="The Hobbit : Battle of the Five Armies"></a>
+    <h2>The Hobbit : Battle of the Five Armies | 2014
+    </h2>
+    <p>
+The final episode of the Hobbit trilogy by Peter Jackson, “The Hobbit: Battle of the five armies”, is an indulging, thrilling adaptation of the final chapters of the book, only a little foreseeable. Though fitting enough, with visuals of epic proportions, that we assume is the characteristic of this series and of the director, there is also satisfactory characterization, which keeps the film impressive. There is always a need for more, to justify the flaws from the director, but the need for gratification could be derived from within the film’s payoff from its middle earth fantasy.
+
+    </p>
+     <a name="Hannah and Her Sisters"></a>
+    <h2>Hannah and Her Sisters | 1986
+    </h2>
+    <p>
+There is a scene in Woody Allen’s “Hannah and Her Sisters”, where Max von Sydow and Barbara Herschey break up; I read that the film crew gave a standing ovation after the take of this scene; the whole movie is filled with such performances from the stellar cast. The film happens between two Thanksgivings, between two years and is about love, deceit and other emotions around it. One of Woody Allen’s best movies (that’s saying something), “Hannah” is a brilliant composition of characters that interact in crisis situations, a few tactically and others emotionally. Finely crafted, mature and elegantly emotional, “Hannah and her sisters” is one of Allen’s unforgettable films.
+
     </p>
 </asp:Content>

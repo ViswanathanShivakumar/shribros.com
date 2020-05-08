@@ -132,6 +132,9 @@
             <h6>UPSTREAM COLOR</h6>
         </li>
         <li>
+            <h6>WORLD'S END, THE</h6>
+        </li>
+        <li>
             <h6>WADJDA</h6>
         </li>
     </ul>

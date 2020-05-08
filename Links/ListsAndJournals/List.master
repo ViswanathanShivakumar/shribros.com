@@ -15,8 +15,9 @@
     <asp:ContentPlaceHolder ID="ListsAndJournalBodyContent" runat="server">
     </asp:ContentPlaceHolder>
     <div class="Quote">
-        Honourable Mentions are entries which are good enough to make it to the top list, but just lost it
-Notable Mentions are are entries which do not have a chance to make it to the top list, but are good entries, as such
+       * Close calls (for the lists, since 2015) are the entries that were almost in the top 15 , but just were moved out from the final selection. <br />
+       * Honourable Mentions are the entries which are good enough to make it to the top list, but just lost it <br />
+* Notable Mentions are the entries which do not have a chance to make it to the top list, but are just good entries <br />
     </div>
     <form id="form1" runat="server">
         <ShribrosControl:PostComment ID="PostComment1" runat="server" />

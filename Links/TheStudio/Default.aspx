@@ -19,7 +19,19 @@
         <table>
 
             <tr>
-                <td><a href="sevenkings.aspx">
+			 <td><a href="quanto.aspx">
+                    <img src="Studio_Resources/poster_quanto.jpg" alt="Quanto Poster Image" /></a>
+                  Quanto
+                </td>
+			  <td><a href="lajovenperfumista.aspx">
+                    <img src="Studio_Resources/poster_lajovenperfumista.jpg" alt="La Joven Perfumista Poster Image" /></a>
+                    La Joven Perfumista
+                </td>
+                <td><a href="boredom5.aspx">
+                    <img src="Studio_Resources/poster_boredom5.jpg" alt="Boredom V Poster Image" /></a>
+                    Boredom V The Falafel Wrap from the Petticoat Lane
+                </td>
+			   <td><a href="sevenkings.aspx">
                     <img src="Studio_Resources/poster_sevenkings.jpg" alt="Seven Kings Poster Image" /></a>
                     Seven Kings
                 </td>
@@ -31,22 +43,25 @@
                     <img src="Studio_Resources/poster_boredom3.jpg" alt="Boredom III British Moon Poster Image" /></a>
                     Boredom III British Moon
                 </td>
-                <td><a href="boredom2.aspx">
+              
+
+               
+            
+            </tr>
+            <tr>
+			  <td><a href="boredom2.aspx">
                     <img src="Studio_Resources/poster_boredom2.jpg" alt="Boredom II The Buffaloes are Gone Poster Image" /></a>
                     Boredom II The Buffaloes Are Gone
                 </td>
-
-                <td><a href="blankversenow.aspx">
+			 <td><a href="blankversenow.aspx">
                     <img src="Studio_Resources/poster_blankversenow.jpg" alt="Blank Verse Now Poster Image" /></a>
                     Blank Verse Now
                 </td>
-                <td><a href="boredom1.aspx">
+                  <td><a href="boredom1.aspx">
                     <img src="Studio_Resources/poster_boredom1.jpg" alt="Boredom I Angels Recite Poster Image" /></a>
                     Boredom I Angels Recite
                 </td>
-            </tr>
-            <tr>
-                <td><a href="quasi.aspx">
+			  <td><a href="quasi.aspx">
                     <img src="Studio_Resources/poster_quasi.jpg" alt="Quasi Poster Image" /></a>
                     Quasi
                 </td>
@@ -59,11 +74,16 @@
                     <img src="Studio_Resources/poster_saturate.jpg" alt="Saturate Poster Image" /></a>
                     Saturate
                 </td>
-                <td><a href="thotrangalbimbangal.aspx">
+            
+             
+                
+            </tr>
+            <tr>
+			    <td><a href="thotrangalbimbangal.aspx">
                     <img src="Studio_Resources/poster_thotrangalbimbangal.jpg" alt="Thotrangal Bimbangal Poster Image" /></a>
                     Thotrangal Bimbangal
                 </td>
-                <td><a href="whenthedevilsays.aspx">
+			   <td><a href="whenthedevilsays.aspx">
                     <img src="Studio_Resources/poster_whenthedevilsaysiknowyou.jpg" alt="When the devil says I know you Poster Image" /></a>
                     When The Devil Says I Know You
                 </td>
@@ -71,9 +91,7 @@
                     <img src="Studio_Resources/poster_cloudedtextures.jpg" alt="Clouded Textures Poster Image" /></a>
                     Clouded Textures
                 </td>
-            </tr>
-            <tr>
-                <td><a href="yourestillalive.aspx">
+				<td><a href="yourestillalive.aspx">
                     <img src="Studio_Resources/poster_youarestillalive.jpg" alt="You are still alive Poster Image" /></a>
                     You Are Still Alive
                 </td>

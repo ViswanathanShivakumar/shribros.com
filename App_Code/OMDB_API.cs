@@ -13,7 +13,8 @@
     public string Language { get; set; }
     public string Country { get; set; }
     public string Awards { get; set; }
-    public string Poster { get { return string.Format("http://img.omdbapi.com/?i={0}&apikey={1}&h=400", imdbID, Config.OMDBAPIKey); } }
+    public string Poster { get; set; }
+    public string Poster1 { get { return string.Format("http://img.omdbapi.com/?i={0}&apikey={1}&h=400", imdbID, Config.OMDBAPIKey); } }
     public string Metascore { get; set; }
     public string imdbRating { get; set; }
     public string imdbVotes { get; set; }

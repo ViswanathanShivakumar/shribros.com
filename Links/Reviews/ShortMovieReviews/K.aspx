@@ -13,8 +13,27 @@
     <p>
         “Kajaki” is the real life story of British soldiers encountering a horrific day, posted at Kajaki Dam in Afghanistan. The enemy is where you cannot find, minefields. Built up with realistic tension and authentic, intimate details, Paul Katis’ makes a tense, suspenseful and effective thriller. Gut wrenching graphic visuals, provokes the audience to think about the reason for war and its philosophy. Although, a touch deliberately paced in between tense periods, “Kajaki” wins with its claustrophobic reconstruction of the event.
     </p>
+    <a name="Kingsman"></a>
+    <h2>Kingsman | 2015
+    </h2>
+    <p>
+Matthew Vaughn’s “Kingsman”, is full of fun and laughter; it’s slick, stylish and often too pointless, for its own good. It’s like a concoction of all the fun out of spy and action entertainers, spiced up with humor and sophisticatedly badass. To watch Colin Firth in such roles alongside, the handy Samuel Jackson, for a great classy spoof, that tries hard to impress; and very well does. While, the closing shot is utterly unnecessary, “Kingsman” is agreeably convincing fun.    </p>
+  
+    <a name="Kuma"></a>
+    <h2>Kuma | 2012
+    </h2>
+    <p>
+Ayse’s life is a misfortune, unsure before her wedding with Hasan, but surely after that. “Kuma” is a film on this; it is part delicate, well done drama, and part soapy and sad. Umut Dag moves the movie, dawdling, but pays in random, with the absorbing, and sensual, gust of passion. Not without its flaws, “Kuma” charms with its lead, played by Begüm Akkaya, and its potential to elevate the theme with ease; a theme with the sub-culture that is not very easy to watch and speak of.
 
-    <a name="Kalyana Samayal Saadham"></a>
+    </p>
+      <a name="Killers, The"></a>
+    <h2>Killers, The | 1964
+    </h2>
+    <p>
+Don Siegel’s “The Killers” , is a pleasingly stylish and sleek take on Ernest Hemingways’ work. Full of energy that pounds the audience with a low-budget yet, complex atmosphere, “The Killers” stands tall on the shoulders of the confident direction and frighteningly stylish character portrayals of the two killers, played by Lee Marvin and Clu Gulagher. John Cassavates plays well, while Ronald Reagen falters a bit. Irresistibly violent, flawed, yet alluring, “The Killers” is only a prefigure to the director’s next, “Dirty Harry”.
+    </p>
+    
+      <a name="Kalyana Samayal Saadham"></a>
     <h2>Kalyana Samayal Saadham | 2013
     </h2>
     <p>

@@ -21,7 +21,6 @@
             <h3>RICHARD LINKLATER</h3>
         </li>
         
-
         <li>
             <h2>GRAND BUDAPEST HOTEL, THE</h2>
             <h3>WES ANDERSON</h3>
@@ -116,10 +115,17 @@
           <li>
             <h6>PRIDE</h6>
         </li>
+         <li>
+            <h6>RAID 2: BERANDAL</h6>
+        </li>
+
           <li>
             <h6>SELMA</h6>
         </li>
-
+        
+   <li>
+            <h6>STARRED UP</h6>
+        </li>
          <li>
             <h6>THE THEORY OF EVERYTHING</h6>
         </li>
@@ -133,6 +139,9 @@
     <ul>        
           <li>
             <h6>BIG HERO 6</h6>
+        </li>
+         <li>
+            <h6>CAPTAIN AMERICA: WINTER SOLDIER</h6>
         </li>
         
         

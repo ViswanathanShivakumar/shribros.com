@@ -16,7 +16,7 @@
     </ul>
     <div class="TwoPanelLayoutLeft">
         <img src="Studio_Resources\snapshot_blankversenow.jpg" alt="Snapshot Blank Verse Now" />
-         <p>
+        <p>
             "Blank Verse Now" is possibly the most personal, philosophical and poetical film that we've experimented with. It is about a human life and 
              just about it.
         </p>
@@ -36,8 +36,7 @@
     <div class="TwoPanelLayoutRight">
         <img src="Studio_Resources\poster_large_blankversenow.jpg" alt="Poster of You're Still Alive" />
         <ul class="BorderedList">
-        <li><a href="http://youtu.be/RKdnOzRDji4" class="youtube">MOVIE
-            </a></li>
+            <li><a href="https://youtu.be/zkghwToPwzU" class="youtube">MOVIE</a></li>
         </ul>
     </div>
 </asp:Content>

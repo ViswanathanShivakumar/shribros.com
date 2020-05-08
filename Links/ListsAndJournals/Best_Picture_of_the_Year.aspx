@@ -4,8 +4,54 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ListsAndJournalContentPlaceHolder" runat="Server">
-    <h1>10 Greatest Movies of all time</h1>
+    <h1>The Best Picture of the Year</h1>
     <ul class="List">
+	    <li>
+            <h2>2018 - SHOPLIFTERS</h2>
+            <h3>HIROKAZU KOREEDA</h3>
+            <h3>JAPANESE</h3>
+               "Manbiki Kazoku" by Koreeda is a genuine masterful piece of work. The movie is naturally deep, yet subtly philosophical on screen; truly affecting and packs the punch not just with its plot points but with 
+			   the sheer definition of what love is. Graceful, rich, poignant and ultimately efficient, Shoplifters is truly the best picture of the year.
+          
+               
+
+            <br />
+            Stiff competition with "Roma", "The Wild Pear Tree" and "Summer 1993"
+        </li>
+         <li>
+            <h2>2017 - A GHOST STORY</h2>
+            <h3>DAVID LOWERY</h3>
+            <h3>ENGLISH</h3>
+               
+           Shot with mundane beauty and precise poignancy, in a stunning style, David Lowery's "A Ghost Story" is about loneliness;a meditative , imaginary piece of work, that does not
+             care about the pace at which it moves, as it doesn't matter for the subject that it choses.
+             Self-aware, yet not devoid of minor gimmicks, this original, scary trip and the scare wholly belongs to life and death , rather than the ghosts.
+             Who could have thought a man with a king sized bed sheet on will make it to the best picture of the year?
+             A Ghost Story is a winner.
+               
+
+            <br />
+            Stiff competition with "Personal Shopper" and "Loveless"
+        </li>
+		<br />
+         <li>
+            <h2>2016 - MANCHESTER BY THE SEA</h2>
+            <h3>KENNETH LONERGAN</h3>
+            <h3>ENGLISH</h3>
+               
+            Whilst there are many films, that get the protagonist deep in grief, there is none like, this year's best, Kenneth Lonergan's 
+             "Manchester by the Sea", which is affectingly painful and heartbreaking, yet filled with vibrant delicate moments, 
+             positioned effortlessly all over this beautiful film. Cassey Affleck's Lee Chandler is an imploding devastation, 
+             played with impeccable temperament and heart. When the character (Lee) says, in a pivotal, intense moment, to the short,
+              but explosively acted character, Randi played by Michelle Williams, "You don't understand. There is nothing there", 
+             it perhaps forms the deepest and the most existential moment in the recent film memory and for all that, we consider it this film, 
+             the year's best.
+               
+
+            <br />
+            Stiff competition with "The Salesman", "Toni Erdmann" & "Silence"
+        </li>
+		<br />
           <li>
             <h2>2015 - DHEEPAN / COURT (TIE)</h2>
             <h3>JACQUES AUDIARD / CHAITANYA TAMHANE</h3>
@@ -23,7 +69,7 @@
             <br />
             Stiff competition with "Hard to be God", "The Revenant"
         </li>
-       
+       <br />
            <li>
             <h2>2014 - WINTER SLEEP</h2>
             <h3>NURI BILGE CEYLAN</h3>
@@ -37,7 +83,7 @@
             <br />
             Stiff competition with "Leviathan"
         </li>
-        
+        <br />
            <li>
             <h2>2013 - THE GREAT BEAUTY</h2>
             <h3>PAULO SORRENTINO</h3>
@@ -46,6 +92,7 @@
             <br />
             Stiff competition with "The Hunt" and "Inside Lleywn Davis"
         </li>
+		<br />
         
            <li>
             <h2>2012 - BEYOND THE HILLS</h2>
@@ -56,7 +103,7 @@
             Stiff competition with "Lincoln"
         </li>
 
-
+		<br />
            <li>
             <h2>2011 - A SEPARATION / ONCE UPON A TIME IN ANATOLIA (TIE)</h2>
             <h3>ASGHAR FARHADI / NURI BILGE CEYLAN</h3>
@@ -72,7 +119,7 @@
             <br />
             
         </li>
-
+		<br />
            <li>
             <h2>2010 - TOY STORY 3</h2>
             <h3>LEE UNKRICH</h3>
@@ -84,7 +131,7 @@
             <br />
             Stiff competition with "127 Hours" , "Animal Kingdom"
         </li>
-        
+        <br />
          <li>
             <h2>2009 - A PROPHET</h2>
             <h3>JACQUES AUDIARD</h3>
@@ -96,7 +143,7 @@
             Stiff competition with "Inglourious Basterds" , "The White Ribbon"
         </li>
 
-         
+         <br />
        
     </ul>
     <div class="Quote"><p>The movies are listed in reverse chronological order</p>

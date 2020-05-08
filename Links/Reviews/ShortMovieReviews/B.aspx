@@ -29,6 +29,13 @@
         Kechiche’s movie on self-discovery is gratifying as it is intricate.
     </p>
 
+     <a name="Badlapur"></a>
+    <h2>Badlapur | 2015
+    </h2>
+    <p>
+        There are a lot of movies about revenge; and they come in different genres. Sriram Raghavan’s “Badlapur” is another revenge story about fate, love and hatred; It is about how things do matter and they do not. A tale well said, yet flawed, despite its actor’s towering performances, notably Nawazuddin Siddiqui and Varun Dhawan. Writing in the second act wanes a bit, but then the finale retains the hold. “Badlapur” is an sensitive film that succeeds at many levels, with its strong roots, yet stumbles unnoticeably for a period of its running time.
+
+    </p>
     <a name="Blue Jasmine"></a>
     <h2>Blue Jasmine | 2013
     </h2>
@@ -51,6 +58,19 @@
     <p>
        Anjali Menon’s “Bangalore Days”, reminds us a lot of what a movie from Farhan Akthar could be. That is a compliment. Beginning with a note that we’ve relentlessly watched over decades in Indian cinema, “Bangalore Days” succeeds in the second and third act, quite naturally. With emotional resonance and a well-staged screenplay, “Bangalore Days” is worth a watch.
     </p>
+    
+       <a name="Bank Dick, The"></a>
+    <h2>Bank Dick, The| 1940
+    </h2>
+    <p>
+W.C.Fields’ wits are matchless. In his “The Bank Dick” directed by Edward Cline, he plays Egbert Souse from the town of Lompoc, who is offered the job to direct a film in the town and what follows is utter fun and lunacy. With great one-liners and preposterously comical and witty gestures from W.C.Fields’, this 1940 comedy is cranky and marvelous. Falls a little short of his outstanding work in “The Gift”, “The Bank Dick” is still, quite a classic.
+        </p>
+
+        <a name="Big Hero 6"></a>
+    <h2>Big Hero 6| 2014
+    </h2>
+    <p>
+Disney’s “Big Hero 6” falls between Pixar’s heartfelt, yet playful works and Dreamworks puerile, yet funny movies. Moving, charming and striking to look at, “Big Hero 6” starts fresh with its action and unconventional super hero, who is adorable as he is amusing.  Fun all the way,   wholly engaging and repeatedly touching, “Big Hero 6” is a superior effort.    </p>
 
 
 </asp:Content>

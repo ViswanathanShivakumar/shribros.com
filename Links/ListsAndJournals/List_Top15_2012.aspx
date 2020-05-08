@@ -36,6 +36,7 @@
         <li><h6>PERKS OF BEING A WALLFLOWER, THE</h6></li>
         <li><h6>PROMETHEUS</h6></li>
         <li><h6>RUST AND BONE</h6></li>
+         <li><h6>SEVEN PYSCHOPATHS</h6></li>
         <li><h6>SKYFALL</h6></li>
         <li><h6>SILVER LININGS PLAYBOOK</h6></li>
     </ul>

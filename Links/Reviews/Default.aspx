@@ -104,7 +104,7 @@
             <%} %>
         </ul>
     </div>
-    <div class="ThreePanelLayout">
+   <!-- <div class="ThreePanelLayout">
         <h1>Perfume</h1>
         <ul id="PerfumeReviews">
             <%previousalphabet = null; %>
@@ -122,5 +122,5 @@
             <li><a href="<%=ResolveClientUrl("PerfumeReviews/"+review.LinkName)%>"><%=review.Name%></a></li>
             <%} %>
         </ul>
-    </div>
+    </div>-->
 </asp:Content>

@@ -41,6 +41,7 @@
         <li><h6>MELANCHOLIA</h6></li>
         <li><h6>MIDNIGHT IN PARIS</h6></li>
         <li><h6>MONEYBALL</h6></li>
+         <li><h6>RAID: REDEMPTION</h6></li>
         <li><h6>THAT GIRL IN YELLOW BOOTS</h6></li>
         <li><h6>TINKER, TAILOR, SOLDIER , SPY</h6></li>
         <li><h6>WAR HORSE</h6></li>

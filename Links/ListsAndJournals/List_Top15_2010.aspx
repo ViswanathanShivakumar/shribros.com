@@ -45,6 +45,7 @@
         <li><h6>MONSTERS</h6></li>
         <li><h6>TANGLED</h6></li>
         <li><h6>TOWN, THE</h6></li>
+         <li><h6>TROLL HUNTER</h6></li>
         <li><h6>BURIED</h6></li>
         <li><h6>WAY BACK, THE</h6></li>
     </ul>

@@ -126,19 +126,19 @@
             }
         });
 
-        $(document).ready(function () {
-            if (window.location.pathname.indexOf('Links/TheStudio') >= 0)
-                $("#TheStudioHeaderLink").attr('class', 'HeaderLinkActive');
-            if (window.location.pathname.indexOf('Links/ListsAndJournals') >= 0)
-                $("#ListsLink").attr('class', 'HeaderLinkActive');
-            if (window.location.pathname.indexOf('Links/Photography') >= 0)
-                $("#PhotographyLink").attr('class', 'HeaderLinkActive');
-            if (window.location.pathname.indexOf('Links/Reviews') >= 0)
-                $("#ReviewsLink").attr('class', 'HeaderLinkActive');
-            if (window.location.pathname.indexOf('Links/MovieRatings') >= 0)
-                $("#MovieRatingsLink").attr('class', 'HeaderLinkActive');
-            if (window.location.pathname.indexOf('Links/WhoWhatAndWhy') >= 0)
-                $("#ShribrosLink").attr('class', 'HeaderLinkActive');
+$(document).ready(function () {
+    if (window.location.pathname.indexOf('Links/TheStudio') >= 0)
+        $("#TheStudioHeaderLink").attr('class', 'HeaderLinkActive');
+    if (window.location.pathname.indexOf('Links/ListsAndJournals') >= 0)
+        $("#ListsLink").attr('class', 'HeaderLinkActive');
+    if (window.location.pathname.indexOf('Links/Photography') >= 0)
+        $("#PhotographyLink").attr('class', 'HeaderLinkActive');
+    if (window.location.pathname.indexOf('Links/Reviews') >= 0)
+        $("#ReviewsLink").attr('class', 'HeaderLinkActive');
+    if (window.location.pathname.indexOf('Links/MovieRatings') >= 0)
+        $("#MovieRatingsLink").attr('class', 'HeaderLinkActive');
+    if (window.location.pathname.indexOf('Links/WhoWhatAndWhy') >= 0)
+        $("#ShribrosLink").attr('class', 'HeaderLinkActive');
 
     var searchIndicatorText = "Search Shribros.com...";
     $("#MasterSearchTextbox").val(searchIndicatorText);
@@ -168,7 +168,7 @@
             });
         }
     });
-});
+        });
     </script>
     <!--**************************************************************-->
     <!-----------------Search Functionality - End--------------------->
@@ -184,21 +184,18 @@
         <tr>
             <td>
                 <div class="Header" onclick="location.href='<%=ResolveClientUrl("Default.aspx") %>';" style="cursor: pointer;">
-                    <ul>
-                        <li class="HeaderLink" id="TheStudioHeaderLink"><a href="<%=ResolveClientUrl("Links/TheStudio") %>">
-                            <img src="<%=ResolveClientUrl("Images/Studio_Icon.jpg")%>" /></a></li>
-                        <li class="HeaderLink" id="ReviewsLink"><a href="<%=ResolveClientUrl("Links/Reviews") %>">
-                            <img src="<%=ResolveClientUrl("Images/Reviews_Icon.jpg")%>" /></a></li>
-                        <li class="HeaderLink" id="ListsLink"><a href="<%=ResolveClientUrl("Links/ListsAndJournals") %>">
-                            <img src="<%=ResolveClientUrl("Images/Lists_Icon.jpg")%>" /></a></li>
-                        <li class="HeaderLink" id="PhotographyLink"><a href="<%=ResolveClientUrl("Links/Photography") %>">
-                            <img src="<%=ResolveClientUrl("Images/Photography_Icon.jpg")%>" /></a></li>
-                        <li class="HeaderLink" id="MovieRatingsLink"><a href="<%=ResolveClientUrl("Links/MovieRatings/MovieRatings.aspx")%>">
-                            <img src="<%=ResolveClientUrl("Images/Ratings_Icon.jpg")%>" /></a></li>
-                        <li class="HeaderLink" id="ShribrosLink"><a href="<%=ResolveClientUrl("Links/WhoWhatAndWhy.aspx")%>">
-                            <img src="<%=ResolveClientUrl("Images/Shribros_Icon.jpg")%>" /></a></li>
-                        <%--<li class="Feedback"><a href="#">FEEDBACK</a></li>--%>
-                    </ul>
+                    <table style="padding:30px 0px 0px 150px;">
+                        <tr>
+                            <td class="Studio" id="TheStudioHeaderLink"><a href="<%=ResolveClientUrl("Links/TheStudio") %>">STUDIO</a></td>
+                            <td class="Reviews" id="ReviewsLink"><a href="<%=ResolveClientUrl("Links/Reviews") %>">REVIEWS</a></td>
+                            <td class="Lists" id="ListsLink"><a href="<%=ResolveClientUrl("Links/ListsAndJournals") %>">LISTS & JOURNALS</a></td>
+                        </tr>
+                        <tr>
+                            <td class="Photographs" id="PhotographyLink"><a href="<%=ResolveClientUrl("Links/Photography") %>">PHOTOGRAPHY</a></td>
+                            <td class="Ratings" id="MovieRatingsLink"><a href="<%=ResolveClientUrl("Links/MovieRatings/MovieRatings.aspx") %>">RATINGS</a></td>
+                            <td class="Shribros" id="ShribrosLink"><a href="<%=ResolveClientUrl("Links/WhoWhatAndWhy.aspx") %>">SHRIBROS</a></td>
+                        </tr>
+                    </table>
                 </div>
                 <input type="text" id="MasterSearchTextbox" class="MasterSearchTextbox" />
                 <div class="MainContentHolder">

@@ -44,13 +44,13 @@
         <ul>
             <li><a href="Links/TheStudio/blankversenow.aspx" class="SubLink1"></a></li>
             <li><a href="Links/Reviews/" class="SubLink2"></a></li>
-            <li><a href="Links/Reviews/PerfumeReviews/Hugo Boss Red.aspx" class="SubLink3"></a></li>
+            <li><a href="Links/ListsAndJournals/List_Top15_2017.aspx" class="SubLink3"></a></li>
             <li><a href="Links/Photography/Default.aspx" class="SubLink4"></a></li>
         </ul>
     </div>
     <div id="MainLinkCaption">Seven Kings</div>
     <div id="SubLink1Caption">Blank Verse Now</div>
     <div id="SubLink2Caption">Movie Reviews</div>
-    <div id="SubLink3Caption">Hugo Boss - Perfume Review</div>
+    <div id="SubLink3Caption">Top 15 Movies of 2017</div>
     <div id="SubLink4Caption">Food Photography</div>
 </asp:Content>
